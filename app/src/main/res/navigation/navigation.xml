@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.mohamedjrad.a4inrowgame.ui.home.HomeFragment"
+        android:label="home_fragment"
+        tools:layout="@layout/home_fragment" >
+        <action
+            android:id="@+id/action_homeFragment_to_gamePlayFragment"
+            app:destination="@id/gamePlayFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_AIGameFragment"
+            app:destination="@id/AIGameFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_onlineFragment"
+            app:destination="@id/onlineFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/gamePlayFragment"
+        android:name="com.mohamedjrad.a4inrowgame.ui.gameplay.GamePlayFragment"
+        android:label="game_play_fragment"
+        tools:layout="@layout/game_play_fragment" >
+        <action
+            android:id="@+id/action_gamePlayFragment_to_homeFragment"
+            app:destination="@id/homeFragment" />
+        <action
+            android:id="@+id/action_gamePlayFragment_self"
+            app:destination="@id/gamePlayFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/AIGameFragment"
+        android:name="com.mohamedjrad.a4inrowgame.ui.AIGame.AIGameFragment"
+        android:label="ai_game_fragment"
+        tools:layout="@layout/ai_game_fragment" >
+        <action
+            android:id="@+id/action_AIGameFragment_to_homeFragment"
+            app:destination="@id/homeFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/onlineFragment"
+        android:name="com.mohamedjrad.a4inrowgame.ui.online.OnlineFragment"
+        android:label="online_fragment"
+        tools:layout="@layout/online_fragment" >
+        <action
+            android:id="@+id/action_onlineFragment_to_homeFragment"
+            app:destination="@id/homeFragment" />
+    </fragment>
+</navigation>
