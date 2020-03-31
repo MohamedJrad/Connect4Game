@@ -7,7 +7,7 @@
 
         <variable
             name="viewModel"
-            type="com.mohamedjrad.a4inrowgame.ui.gameplay.GamePlayViewModel" />
+            type="com.mohamedjrad.connect4game.ui.gameplay.GamePlayViewModel" />
     </data>
 
     <androidx.constraintlayout.widget.ConstraintLayout

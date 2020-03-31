@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/homeFragment"
-        android:name="com.mohamedjrad.a4inrowgame.ui.home.HomeFragment"
+        android:name="com.mohamedjrad.connect4game.ui.home.HomeFragment"
         android:label="home_fragment"
         tools:layout="@layout/home_fragment" >
         <action
@@ -22,7 +22,7 @@
     </fragment>
     <fragment
         android:id="@+id/gamePlayFragment"
-        android:name="com.mohamedjrad.a4inrowgame.ui.gameplay.GamePlayFragment"
+        android:name="com.mohamedjrad.connect4game.ui.gameplay.GamePlayFragment"
         android:label="game_play_fragment"
         tools:layout="@layout/game_play_fragment" >
         <action
@@ -34,7 +34,7 @@
     </fragment>
     <fragment
         android:id="@+id/AIGameFragment"
-        android:name="com.mohamedjrad.a4inrowgame.ui.AIGame.AIGameFragment"
+        android:name="com.mohamedjrad.connect4game.ui.AIGame.AIGameFragment"
         android:label="ai_game_fragment"
         tools:layout="@layout/ai_game_fragment" >
         <action
@@ -43,7 +43,7 @@
     </fragment>
     <fragment
         android:id="@+id/onlineFragment"
-        android:name="com.mohamedjrad.a4inrowgame.ui.online.OnlineFragment"
+        android:name="com.mohamedjrad.connect4game.ui.online.OnlineFragment"
         android:label="online_fragment"
         tools:layout="@layout/online_fragment" >
         <action

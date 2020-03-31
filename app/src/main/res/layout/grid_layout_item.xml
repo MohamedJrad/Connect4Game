@@ -7,11 +7,11 @@
 
         <variable
             name="cercle"
-            type="com.mohamedjrad.a4inrowgame.data.model.Cercle" />
+            type="com.mohamedjrad.connect4game.data.model.Cercle" />
 
         <variable
             name="clickListener"
-            type="com.mohamedjrad.a4inrowgame.ui.gameplay.Listener" />
+            type="com.mohamedjrad.connect4game.ui.gameplay.Listener" />
     </data>
 
     <androidx.constraintlayout.widget.ConstraintLayout
